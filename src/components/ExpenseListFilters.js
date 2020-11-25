@@ -51,7 +51,7 @@ export class ExpenseListFilters extends React.Component {
                     focusedInput={this.state.calendarFocused}
                     onFocusChange={this.onFocusChange}
                     showClearDates={true}
-                    numberOufMonths={1}
+                    numberOfMonths={1}
                     isOutsideRange={() => false}
                 />
             </div>
